@@ -1,0 +1,65 @@
+polybar|notice:  Parsing config file: /home/koray/.config/polybar/config.ini
+polybar|notice:  Loading module 'i3' of type 'internal/i3'
+polybar|notice:  Loading module 'spotify' of type 'custom/script'
+polybar|notice:  Loading module 'spotify-next' of type 'custom/script'
+polybar|error: Disabling module "spotify-play-pause" (reason: Inter-process messaging needs to be enabled)
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1f.3.analog-stereo
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'wireless-network' of type 'internal/network'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 14 modules
+polybar|notice:  Loaded font "BlexMono Nerd Font:size=9" (name=BlexMono Nerd Font, offset=3, file=/home/koray/.local/share/fonts/Blex Mono Bold Nerd Font Complete.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/koray/.config/polybar/config.ini
+polybar|notice:  Loading module 'i3' of type 'internal/i3'
+polybar|notice:  Loading module 'spotify' of type 'custom/script'
+polybar|notice:  Loading module 'spotify-next' of type 'custom/script'
+polybar|error: Disabling module "spotify-play-pause" (reason: Inter-process messaging needs to be enabled)
+polybar|notice:  Loading module 'spotify-prev' of type 'custom/script'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1f.3.analog-stereo
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'wireless-network' of type 'internal/network'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 15 modules
+polybar|notice:  Loaded font "BlexMono Nerd Font:size=9" (name=BlexMono Nerd Font, offset=3, file=/home/koray/.local/share/fonts/Blex Mono Bold Nerd Font Complete.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
+polybar|notice:  Parsing config file: /home/koray/.config/polybar/config.ini
+polybar|notice:  Loading module 'i3' of type 'internal/i3'
+polybar|notice:  Loading module 'nowplaying' of type 'custom/script'
+polybar|notice:  Loading module 'pulseaudio' of type 'internal/pulseaudio'
+polybar|notice:  pulseaudio: using default sink alsa_output.pci-0000_00_1f.3.analog-stereo
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'wireless-network' of type 'internal/network'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'memory' of type 'internal/memory'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'cpu' of type 'internal/cpu'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'battery' of type 'internal/battery'
+polybar|notice:  Loading module 'sep' of type 'custom/text'
+polybar|notice:  Loading module 'date' of type 'internal/date'
+polybar|notice:  Loaded 13 modules
+polybar|notice:  Loaded font "BlexMono Nerd Font:size=9" (name=BlexMono Nerd Font, offset=3, file=/home/koray/.local/share/fonts/Blex Mono Bold Nerd Font Complete.ttf)
+polybar|notice:  Received signal(15): Terminated
+polybar|notice:  Termination signal received, shutting down...
+polybar|warn:  module/i3: Attempting to reconnect socket (reason: Unexpected EOF while reading header)
