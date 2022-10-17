@@ -1,0 +1,25 @@
+networkctl list
+/etc/systemd/network/wlan.network
+ 
+ [Match]
+Name=wl*
+
+[Network]
+DHCP=yes
+IPv6PrivacyExtensions=yes
+
+[DHCPv4]
+RouteMetric=600
+
+[IPv6AcceptRA]
+RouteMetric=600
+
+##
+$ man iwctl
+
+$ systemctl restart systemd-networkd
+[iwctl] station <devicename> scan
+[iwctl] station <devicename> get-networks
+[iwctl] station <devicename> connect network-name
+devicename something like wlan0, $ ip link show
+
