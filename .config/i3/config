@@ -19,6 +19,9 @@ set $mod Mod1
 exec --no-startup-id dex --autostart --environment i3
 exec_always --no-startup-id autotiling
 
+# start notif server
+exec --no-startup-id $HOME/aur/wired-notify/target/release/wired
+
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
