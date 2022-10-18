@@ -45,7 +45,7 @@ exec --no-startup-id nm-applet
 # start polybar and set bg
 exec --no-startup-id polybar mybar
 #exec --no-startup-id feh --bg-scale ~/Downloads/cpwp.jpg
-exec --no-startup-id feh --bg-scale ~/Downloads/disco.jpg
+exec --no-startup-id feh --bg-scale ~/Downloads/pink-cat.png
 
 # language switch
 exec --no-startup-id "setxkbmap -model pc104 -layout us,tr -option grp:shifts_toggle"
