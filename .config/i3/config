@@ -59,7 +59,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # take screenshot
 bindsym --release Print exec --no-startup-id scrot
-bindsym --release $mod+P exec --no-startup-id scrot -s
+bindsym --release $mod+P exec --no-startup-id scrot -fs
 
 # scratchpad
 bindsym $mod+F9 move scratchpad
