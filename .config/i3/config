@@ -29,6 +29,8 @@ exec --no-startup-id $HOME/aur/wired-notify/target/release/wired
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
+#compositor
+exec --no-startup-id picom
 # auto lock
 exec --no-startup-id xautolock -time 2 -corners 0-0- -locker "~/scripts/lock.sh"
 
@@ -111,24 +113,20 @@ gaps inner 10
 gaps outer 0
 gaps bottom 30
 bindsym $mod+shift+g gaps inner current set 0; gaps outer current set 0; gaps bottom current set 0;
-bindsym $mod+g gaps inner current set 10; gaps outer current set 10; gaps bottom current set 20;
+bindsym $mod+g gaps inner current set 10; gaps outer current set 0; gaps bottom current set 30;
 
 
 # GET DEM BORDERS OUT OF HEREc:w
 #
-# Thanks Childz
-#temp should be 0 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
                           # class                 border  backgr. text    indicator child_border
-for_window [class="^.*"] client.focused          #77dd77 #285577 #ffffff #2e9ef4   #285577
+#for_window [class="^.*"] client.focused          #77dd77 #285577 #ffffff #2e9ef4   #285577
 
-
-default_border pixel 4 
-
-#client.focused          #ffffff #ffffff #ffffff #2efeff   #fffff7
-#client.focused_inactive #ffffff #ffff6a #ffffff #48fe5f   #5f676f
-#client.unfocused        #ffffff #ff2222 #888888 #fffffe   #2222f2
-#client.urgent           #ffffff #ffffff #ffffff #9fffff   #900000
+#colors:                border  backgr. text    ind.
+client.focused          #007030 #7953A9 #ffffff #7953A9
+client.focused_inactive #888888 #222222 #ffffff #222222
+client.unfocused        #888888 #222222 #ffffff #222222
+client.urgent           #900000 #900000 #ffffff #222222
 #client.placeholder      #ffffff #0cfffc #ffffff #ffffff   #0c0c0c
 
 
@@ -204,13 +202,6 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+shift+f sticky toggle
 
 
-#colors:                border  backgr. text    ind.
-client.focused          #007030 #7953A9 #ffffff #7953A9
-#client.focused #cba6f7 #cba6f7 #000000 #cba6f7
-                                #0 cool blue
-client.focused_inactive #888888 #222222 #ffffff #222222
-client.unfocused        #888888 #222222 #ffffff #222222
-client.urgent           #900000 #900000 #ffffff #222222
 
 #no window borders
 hide_edge_borders smart
