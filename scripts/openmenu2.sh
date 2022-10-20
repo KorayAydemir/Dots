@@ -5,7 +5,7 @@ mycache=~/scripts/executables.cache
 choice=`cat $mycache | \
   dmenu -i -f \
   -fn 1 \
-  -nf white -nb black -sf hotpink -sb '#301252'\
+  -nf white -nb '#24273a' -sf '#181926' -sb '#f4dbd6'\
   -p 'What the fuck do you want?'`
 
 [ "$?" = "0" ] && gtk-launch $choice
