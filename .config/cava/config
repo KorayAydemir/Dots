@@ -132,22 +132,20 @@ mode = waves
 # ncurses output method and a terminal that can change color definitions such as Gnome-terminal or rxvt.
 # if supported, ncurses mode will be forced on if user defined colors are used.
 # default is to keep current terminal color
-; background = default
-; foreground = default
+[color]
 
-# SDL only support hex code colors, these are the default:
-; background = '#111111'
-; foreground = '#33cccc'
+[color]
 
+gradient = 1
 
-# Gradient mode, only hex defined colors (and thereby ncurses mode) are supported,
-# background must also be defined in hex  or remain commented out. 1 = on, 0 = off.
-# You can define as many as 8 different colors. They range from bottom to top of screen
- gradient = 1
- gradient_color_1 = '#f92672'
- gradient_color_2 = '#0066cc'
-
-
+gradient_color_1 = '#8bd5ca'
+gradient_color_2 = '#91d7e3'
+gradient_color_3 = '#7dc4e4'
+gradient_color_4 = '#8aadf4'
+gradient_color_5 = '#c6a0f6'
+gradient_color_6 = '#f5bde6'
+gradient_color_7 = '#ee99a0'
+gradient_color_8 = '#ed8796'
 
 [smoothing]
 
