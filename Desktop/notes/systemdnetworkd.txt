@@ -15,7 +15,6 @@ RouteMetric=600
 RouteMetric=600
 
 ##
-$ man iwctl
 
 $ systemctl restart systemd-networkd
 [iwctl] station <devicename> scan
