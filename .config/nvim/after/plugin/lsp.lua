@@ -11,7 +11,7 @@ require('lspconfig').rust_analyzer.setup {
     }
   }
 }
-vim.cmd [[autocmd BufWritePre *.rs,*.js,*.jsx,*.ts,*.tsx,*.json,*.lua lua vim.lsp.buf.formatting_seq_sync()]]
+vim.cmd [[autocmd BufWritePre *.css,*.module.css,*.rs,*.js,*.jsx,*.ts,*.tsx,*.json,*.lua lua vim.lsp.buf.formatting_seq_sync()]]
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '<space>e', vim.diagnostic.open_float, opts)
@@ -75,7 +75,7 @@ end
 local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 -- Enable the following language servers
-local servers = { 'rust_analyzer', 'pyright', 'tsserver' }
+local servers = { 'rust_analyzer', 'pyright', 'cssls', 'tsserver' }
 
 -- Ensure the servers above are installed
 require('nvim-lsp-installer').setup {
