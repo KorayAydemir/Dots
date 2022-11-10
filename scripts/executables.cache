@@ -1,6 +1,5 @@
-jetbrains-toolbox
-youtube-dl
 airshipper.desktop
+assistant.desktop
 bssh.desktop
 bvnc.desktop
 cmake-gui.desktop
@@ -17,6 +16,14 @@ htop.desktop
 i3.desktop
 kitty.desktop
 kitty-open.desktop
+libreoffice-base.desktop
+libreoffice-calc.desktop
+libreoffice-draw.desktop
+libreoffice-impress.desktop
+libreoffice-math.desktop
+libreoffice-startcenter.desktop
+libreoffice-writer.desktop
+libreoffice-xsltfilter.desktop
 linguist.desktop
 lstopo.desktop
 mimeinfo.cache
@@ -37,3 +44,6 @@ transmission-qt.desktop
 wine.desktop
 xdvi.desktop
 youtube-music.desktop
+exercism
+jetbrains-toolbox
+youtube-dl

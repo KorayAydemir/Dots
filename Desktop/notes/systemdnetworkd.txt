@@ -1,5 +1,6 @@
-networkctl list
-/etc/systemd/network/wlan.network
+$networkctl list
+
+# config in /etc/systemd/network/20-wlan.network
  
  [Match]
 Name=wl*
@@ -14,7 +15,7 @@ RouteMetric=600
 [IPv6AcceptRA]
 RouteMetric=600
 
-##
+### connect to wifi ###
 
 $ systemctl restart systemd-networkd
 [iwctl] station <devicename> scan
