@@ -24,3 +24,4 @@ nnoremap("<leader>vh", function()
 end)
 -- undotree
 nnoremap('<F5>', ':UndotreeToggle<CR>')
+nnoremap('<leader>f', ':Prettier<CR>')

@@ -10,3 +10,4 @@ autocmd BufRead,BufNewFile *.tex setlocal spell
 set spelllang=tr,en_gb
 inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 ]]
+vim.g.vimtex_syntax_conceal_disable = 1

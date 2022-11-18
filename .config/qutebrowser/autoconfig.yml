@@ -42,6 +42,7 @@ settings:
     https://www.facebook.com: false
     https://www.op.gg: false
     https://www.reddit.com: false
+    https://www.sabah.com.tr: false
     https://www.youtube.com: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: false

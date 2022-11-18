@@ -31,7 +31,11 @@ return require('packer').startup(function()
       vim.g.catppuccin_flavour = "mocha" -- latte, frappe, macchiato, mocha
       require("catppuccin").setup()
       vim.api.nvim_command "colorscheme catppuccin"
-    end
+    end;
+    use 'MunifTanjim/prettier.nvim';
+    use 'jose-elias-alvarez/null-ls.nvim'
+
+
   }
 
 
